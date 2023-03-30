@@ -1,0 +1,118 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    background-color: black;
+    height: 70px;
+    font-size: 22px;
+    /* color: white; */
+    align-items: center;
+
+}
+
+ul li {
+    /* margin: 34px 33px; */
+    /* margin-top: 20px; */
+    font-size: 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    /* margin:  20px; */
+    color: white;
+    padding: 0 20px;
+}
+.brand{
+    /* width: 51px;
+    height: 51px; */
+    /* margin-right: 22px; */
+    display: flex;
+    color: white;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+
+    
+}
+.brand img{
+    /* display: flex; */
+    /* height: 50px; */
+    
+    /* margin: 10px; */
+    width: 50px;
+    padding: 0 8px;
+}
+.container{
+    min-height: 55vh;
+    background-color: black;
+    color: white ;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 10px;
+    padding: 34px;
+    background-image: url('../Spotify_img/bag.jpg') ;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+    cursor: pointer;
+    
+}
+#myProgress{
+    width: 150vh;
+    cursor: pointer;
+}
+.songitemscontainer{
+    margin-top: 50px;
+}
+.songitems{
+height: 50px;
+display: flex;
+background-color: white;
+/* width: 80%; */
+color: black;
+margin: 12px 0;
+justify-content: space-between;
+align-items: center;
+border-radius: 10px;
+}
+.songitems img{
+    width: 50px;
+    margin: 0 23px;
+    border-radius: 50px;
+
+}
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songinfo{
+    position: absolute;
+    /* bottom: 1px; */
+    left: 10vw;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
